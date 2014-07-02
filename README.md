@@ -30,7 +30,7 @@ USAGE
 
 Every runnable script returns its usage if run without arguments (unless the function implemented takes no arguments). Try `python spu3.py` to get usage on running SPU with dominance pruning.
 
-The diagrams used in the experiments in the paper are in the compressed file experiments.zip. To reproduce the results, uncompress that file and the script run-chain.py with each algorithm, e.g.:
+The diagrams used in the experiments in the paper are in the compressed file experiments.zip. To reproduce the results, uncompress that file and run the script _run-chain.py_ with each algorithm and each diagram, e.g.:
    
   `python run-chain.py SPUhull experiments/exp-100-10-?.p`
    
