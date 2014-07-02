@@ -1,0 +1,3 @@
+Copyright by Denis D. Maua (2014)
+
+THIS CODE IS PROVIDED "AS-IS". USE AT YOUR OWN RISK.
