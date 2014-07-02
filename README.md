@@ -34,7 +34,7 @@ The diagrams used in the experiments in the paper are in the compressed file exp
    
   `python run-chain.py SPUhull experiments/exp-100-10-?.p`
    
-will run SPU (1-neighborhood search) with dominance pruning on ten chain-like diagrams with 100 decision variables and 10-ary variables (each file is a pick dump of a diagram object).
+will run SPU (1-neighborhood search) with dominance pruning on ten chain-like diagrams with 100 decision variables and 10-ary variables (each file is a pickle dump of a diagram object).
 
 New chain-like diagrams can be generated with `python generate-chain.py`. Comparison among different algorithms on randomly generated chain-like diagrams can be obtained running `python chainID.py`
 
