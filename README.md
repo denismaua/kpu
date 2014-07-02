@@ -16,12 +16,12 @@ Copyright by Denis D. Maua (2014)
 
 **THIS CODE IS PROVIDED "AS-IS". USE AT YOUR OWN RISK.**
 
-This package is released so that others can reproduce the experiments in the paper, and potentially use the algorithms in further work. You can contact-me for simple questions, but please do not expect to get real support from me.
+This package is released so that others can reproduce the experiments in the paper, and potentially use the algorithms in other work. You can contact-me for simple questions, but please do not expect to get real support from me.
 
 INSTALLATION
 ------------
 
-Simply clone the repository. It is highly advisable to run the scripts with the Pypy interpreter instead of the standard Python intepreter. Check [pypy.org](http://pypy.org "Pypy") for info on downloading and installing PyPy.
+Simply clone the repository (or download a compressed version). *It is highly advisable to run the scripts with the Pypy interpreter instead of the standard Python intepreter*. Check [pypy.org](http://pypy.org "Pypy") for info on downloading and installing PyPy.
 
 USAGE
 -----
