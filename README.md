@@ -3,7 +3,7 @@ k-Neighborhood Policy Updating for Influence Diagrams
 
 A Python package that implements the *k-neighborhood local search algorithms for selecting strategies in (limited memory) influence diagrams* described in
 
->    D.D. Maua and F.G. Cozman (2014), Speeding Up k-Neighborhood Local Search in Limited Memory Influence Diagrams. In _Proceedings of the Seventh European Conference on Probabilistic Graphical Models_ (to appear).
+>    D.D. Maua and F.G. Cozman (2014), Speeding Up k-Neighborhood Local Search in Limited Memory Influence Diagrams. In _Proceedings of the Seventh European Conference on Probabilistic Graphical Models_, LNAI 8754, pp. 334-349.
     
 If you use this code in an academic work, please cite the publication above.
 
