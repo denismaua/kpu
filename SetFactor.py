@@ -201,7 +201,7 @@ def SetFactorSumBProduct(FactorList, variableList):
     
     while len(FactorList) > 1:
         Fp = FactorList.pop()
-        F = FactorProduct(F,Fp)
+        F = SetFactorProduct(F,Fp)
         
     Fp = FactorList.pop()
     
@@ -217,7 +217,7 @@ def ParetoSetFactorSumBProduct(FactorList, variableList, RemoveNonExtreme=False)
     
     while len(FactorList) > 1:
         Fp = FactorList.pop()
-        F = ParetoSet(FactorProduct(F,Fp))
+        F = ParetoSet(SetFactorProduct(F,Fp))
         
     Fp = FactorList.pop()
     S = ParetoSet(SetFactorSumProduct(F,Fp,variableList))
