@@ -16,7 +16,7 @@ Copyright by Denis D. Maua (2014)
 
 **THIS CODE IS PROVIDED "AS-IS". USE AT YOUR OWN RISK.**
 
-This package is released so that others can reproduce the experiments in the paper, and potentially use the algorithms in other work. You can contact-me for simple questions, but please do not expect to get real support from me.
+This package is released so that others can reproduce the experiments in the paper, and potentially use the algorithms in other work. You can contact-me with simple questions, but please do not expect to get real support from me.
 
 INSTALLATION
 ------------
@@ -38,5 +38,5 @@ will run SPU (1-neighborhood search) with dominance pruning on ten chain-like di
 
 New chain-like diagrams can be generated with `python generate-chain.py`. Comparison among different algorithms on randomly generated chain-like diagrams can be obtained running `python chainID.py`
 
-The codes can deal with arbitrarily spahed diagrams, but there is currently no support from loading an arbitrary model from file (nor there is any standard file format for limited memory influence diagrams). There is however support for loading Bayesian networks in the [UAI File Format](http://graphmod.ics.uci.edu/uai08/FileFormat). We some additional work this can be used to load/save limids from/to file. My suggestion is that the description of node types be given in a separate file (that is, in addition to the .uai file describing variables and CPTs, you should store the labeling of nodes, i.e., decision, chance and value, in a separate file).
+The codes can deal with arbitrarily shaped diagrams, but there is currently no support for loading an arbitrary model from file (nor there is any standard file format for limited memory influence diagrams). There is however support for loading Bayesian networks in the [UAI File Format](http://graphmod.ics.uci.edu/uai08/FileFormat). With some additional work this can be used to load/save limids from/to file. My suggestion is that the description of node types be given in a separate file (that is, in addition to the .uai file describing variables and CPTs, you should store the labeling of nodes, i.e., decision, chance and value, in a separate file).
 
